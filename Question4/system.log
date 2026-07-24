@@ -1,0 +1,9 @@
+INFO: System started
+ERROR: Database connection failed
+INFO: User logged in
+ERROR: Disk space low
+INFO: Backup completed
+ERROR: Network timeout
+INFO: Service restarted
+ERROR: Permission denied
+ERROR: Test error message
