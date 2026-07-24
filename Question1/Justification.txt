@@ -1,0 +1,31 @@
+Justification of Linux Commands, Redirection Operators, and File Handling Techniques
+
+1. md5sum
+The md5sum command generates a unique checksum for each file. Files with the same checksum are identified as duplicate submissions.
+
+2. cp
+The cp command copies only unique files into the backup directory while avoiding duplicate backups.
+
+3. mkdir -p
+The mkdir -p command creates the backup directory if it does not already exist without generating an error.
+
+4. declare -A
+An associative array is used to store file checksums so duplicate files can be detected efficiently.
+
+5. > (Output Redirection)
+The > operator creates a new file or overwrites an existing file. It is used to create report.txt and errors.txt.
+
+6. >> (Append Redirection)
+The >> operator appends output to an existing file without overwriting previous content.
+
+7. 2>> (Error Redirection)
+The 2>> operator redirects error messages to errors.txt, keeping normal output separate from errors.
+
+8. Shell Variables
+Variables are used to count processed files, duplicate files, and backed-up files, making report generation easier.
+
+9. for Loop
+The for loop processes every submission file automatically instead of handling files one by one.
+
+10. if Statement
+The if statement checks whether a file is unique or a duplicate and performs the appropriate action.
